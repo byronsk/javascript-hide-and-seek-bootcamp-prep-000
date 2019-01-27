@@ -8,9 +8,6 @@ return document.getElementById('nested').querySelector('.target');
 }
 
 
-var deepestLevel = 0;
-var deepestLevelText = "";
-
 function deepestChild() {
   var nodes = document.querySelectorAll('#grand-node div');
   if(!nodes.length) 
